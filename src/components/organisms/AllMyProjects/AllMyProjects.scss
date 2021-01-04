@@ -1,0 +1,19 @@
+.allProjects {
+  padding-top: 50px;
+  display: flex;
+  &_card {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin: 10px;
+    width: 100%;
+    padding: 1%;
+    border-radius: 7px;
+    &_images {
+      border-radius: 7px;
+      height: 40vh;
+      max-height: 300px;
+      width: 100%;
+    }
+  }
+}
